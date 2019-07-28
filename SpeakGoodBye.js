@@ -10,8 +10,8 @@
   // the "speak" method and which you will expose to the global context
   // See Lecture 52, part 1
   // var byeSpeaker =
-  var byeSpeaker = {};
 
+  var byeSpeaker = {};
 
   // DO NOT attach the speakWord variable to the 'byeSpeaker' object.
   var speakWord = "Good Bye";
@@ -31,6 +31,7 @@
   // 'byeSpeaker' on the global scope as well.
   // xxxx.xxxx = byeSpeaker;
 
-  window.byeSpeaker=byeSpeaker;
+  window.byeSpeaker = byeSpeaker;
 
-})(window);
+}
+)(window);
